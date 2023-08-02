@@ -2,10 +2,10 @@ import Link from "next/link";
 
 type Todo = {
   title: string;
-}
+};
 
 async function getData() {
-  const res = await fetch("http://localhost:3000/api/todos");
+  const res = await fetch("http://localhost:3000/api/todos", { next: { revalidate: 10 } });
   return res.json();
 }
 
