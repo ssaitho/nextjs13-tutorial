@@ -2,4 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 @import '../../node_modules/@ssaitho/react_ts_storybook/index.css';
-@import '../../node_modules/@ssaitho/react_ts_storybook/react-datepicker.css';

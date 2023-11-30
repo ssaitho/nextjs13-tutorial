@@ -1,8 +1,8 @@
-"use client";
-import React, { useState } from "react";
-import "./globals.css";
-import Link from "next/link";
-import { Button } from "@ssaitho/react_ts_storybook/Button";
+// "use client";
+import React, { useState } from 'react'
+import './globals.css'
+import Link from 'next/link'
+import { Button } from '@ssaitho/react_ts_storybook/Button'
 // import { DatePicker } from "@ssaitho/react_ts_storybook/DatePicker";
 // import { StarIcon } from "@ssaitho/react_ts_storybook/Icon";
 // import { MultiSelect } from "@ssaitho/react_ts_storybook";
@@ -39,5 +39,5 @@ export default function Home() {
         <button className="border px-3 py-2 text-xs">page1へ</button>
       </Link>
     </>
-  );
+  )
 }
