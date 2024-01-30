@@ -23,6 +23,6 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@ssaitho/react_ts_storybook": "^0.2.40"
+    "@ssaitho/react_ts_storybook": "^0.2.41"
   }
 }
